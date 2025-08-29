@@ -1,3 +1,4 @@
+#exercício de triângulo
 lA = input("Digite o valor do lado A: ")
 lB = input("Digite o valor do lado B: ")
 lC = input("Digite o valor do lado C: ")
