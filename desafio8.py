@@ -11,5 +11,7 @@ if lA.isdigit() and lB.isdigit() and lC.isdigit():
         if (lA < lB + lC) and (lB < lA + lC) and (lC < lA + lB):
             if (lA > abs(lB - lC)) and (lB > abs(lA - lC)) and (lC > abs(lA - lB)):
                 print("Os valores podem forma um triângulo")
+            else: 
+                print("Os valores não podem formar um triângulo")
         else: 
             print("Os valores não podem formar um triângulo")
