@@ -7,8 +7,8 @@ usuarios_falha = set()
 for nome, acesso in acessos:
     if acesso == "sucesso":
         usuarios_sucesso.add(nome)
-else:
-    usuarios_falha.add(nome)   
+    elif acesso == "falha":
+        usuarios_falha.add(nome)   
 
 
 print(f'Usuários que tiveram login com falhas:')
